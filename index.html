@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ERMAKSAN için endüstriyel fırın çözümlerini tanıtan modern ve responsive kurumsal web sitesi."
+    />
+    <title>ERMAKSAN | Endüstriyel Fırın Çözümleri</title>
+    <link rel="preload" href="./assets/logo.svg" as="image" type="image/svg+xml" />
+    <link rel="preload" href="./assets/hero-oven.svg" as="image" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header" id="top">
+        <div class="container nav-row">
+            <a class="brand" href="./index.html" aria-label="ERMAKSAN anasayfa">
+            <img src="./assets/logo.svg" alt="ERMAKSAN" />
+          </a>
+
+          <button
+            class="menu-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="site-nav"
+            aria-label="Menüyü aç"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <nav class="site-nav" id="site-nav" aria-label="Ana menü">
+            <a href="./index.html" class="is-active">Anasayfa</a>
+            <a href="./kurumsal.html">Kurumsal</a>
+            <a href="./urunler.html">Ürünler</a>
+            <a href="#process">Üretim</a>
+            <a href="./referanslar.html">Referanslar</a>
+            <a href="./iletisim.html">İletişim</a>
+          </nav>
+
+          <div class="nav-actions">
+            <a href="./iletisim.html" class="button button-primary">Teklif Al</a>
+            <button class="lang-switch" type="button" aria-label="Dil seçimi">TR</button>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero-section" id="hero">
+          <div class="hero-backdrop"></div>
+          <div class="container hero-grid">
+            <div class="hero-copy">
+              <p class="eyebrow">Endüstriyel fırın çözümleri</p>
+              <h1>
+                Endüstriyel Fırın
+                <br />
+                Teknolojilerinde
+                <br />
+                <span>Güvenilir Çözüm Ortağınız</span>
+              </h1>
+              <p class="hero-text">
+                ERMAKSAN, modern üretim teknolojileri ve mühendislik gücüyle fırın,
+                taşıma ve özel proses sistemlerinde işletmelere yüksek verimli
+                çözümler sunar.
+              </p>
+
+              <div class="hero-actions">
+                <a href="#products" class="button button-primary">Kataloğu İncele</a>
+                <a href="./iletisim.html" class="button button-secondary">Teklif Al</a>
+              </div>
+
+              <div class="hero-slider-nav" aria-hidden="true">
+                <span class="is-active"></span>
+                <span></span>
+                <span></span>
+              </div>
+
+              <div class="hero-stats">
+                <article>
+                  <strong>20+</strong>
+                  <span>Ülkeye ihracat</span>
+                </article>
+                <article>
+                  <strong>500+</strong>
+                  <span>Kurulu sistem</span>
+                </article>
+                <article>
+                  <strong>15+</strong>
+                  <span>Yıllık tecrübe</span>
+                </article>
+              </div>
+            </div>
+
+            <div class="hero-visual" aria-hidden="true">
+              <div class="hero-machine-frame">
+                <img src="./assets/hero-oven.svg" alt="" />
+              </div>
+
+              <div class="device-card">
+                <div class="device-notch"></div>
+                <div class="device-screen">
+                  <img class="device-logo" src="./assets/logo.svg" alt="" />
+                  <p class="device-eyebrow">Endüstriyel fırın çözümleri</p>
+                  <h2>
+                    Güvenilir
+                    <span>Çözüm Ortağınız</span>
+                  </h2>
+                  <div class="device-buttons">
+                    <span class="device-button filled">Teklif Al</span>
+                    <span class="device-button ghost">Katalog</span>
+                  </div>
+                  <img class="device-machine" src="./assets/hero-oven.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-ribbon">
+            <div class="container feature-grid">
+              <article class="feature-item">
+                <div class="feature-icon feature-icon-bars"></div>
+                <div>
+                  <h3>Yüksek Üretim Kapasitesi</h3>
+                  <p>Yoğun üretim hatları için hızlı ve verimli prosesler.</p>
+                </div>
+              </article>
+              <article class="feature-item">
+                <div class="feature-icon feature-icon-gear"></div>
+                <div>
+                  <h3>Özel Proje Çözümleri</h3>
+                  <p>İhtiyaca özel mühendislik, tasarım ve entegrasyon desteği.</p>
+                </div>
+              </article>
+              <article class="feature-item">
+                <div class="feature-icon feature-icon-headset"></div>
+                <div>
+                  <h3>Satış Sonrası Destek</h3>
+                  <p>Kurulum, bakım, teknik servis ve yedek parça süreçleri.</p>
+                </div>
+              </article>
+              <article class="feature-item">
+                <div class="feature-icon feature-icon-shield"></div>
+                <div>
+                  <h3>CE Standartlarına Uygun</h3>
+                  <p>Güvenlik ve kalite standartlarına tam uyumlu üretim.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="products-section section-light" id="products">
+          <div class="container">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow eyebrow-dark">Ürünlerimiz</p>
+                <h2>Ürün Gruplarımız</h2>
+                <p class="section-subtitle">
+                  İhtiyacınıza uygun endüstriyel fırın çözümleri
+                </p>
+              </div>
+              <a href="./urunler.html" class="section-link">Tüm ürünleri görüntüle</a>
+            </div>
+
+            <div class="products-layout">
+              <div class="product-grid">
+                <article class="product-card">
+                  <div class="product-media">
+                    <img src="./assets/hero-oven.svg" alt="Konveyörlü fırın sistemi" />
+                  </div>
+                  <div class="product-body">
+                    <h3>Konveyörlü Fırınlar</h3>
+                    <button type="button" aria-label="Konveyörlü fırınları incele">+</button>
+                  </div>
+                </article>
+                <article class="product-card">
+                  <div class="product-media">
+                    <img src="./assets/hero-oven.svg" alt="Katlı fırın sistemi" />
+                  </div>
+                  <div class="product-body">
+                    <h3>Katlı Fırınlar</h3>
+                    <button type="button" aria-label="Katlı fırınları incele">+</button>
+                  </div>
+                </article>
+                <article class="product-card">
+                  <div class="product-media">
+                    <img src="./assets/hero-oven.svg" alt="Döner arabalı fırın sistemi" />
+                  </div>
+                  <div class="product-body">
+                    <h3>Döner Arabalı Fırınlar</h3>
+                    <button type="button" aria-label="Döner arabalı fırınları incele">+</button>
+                  </div>
+                </article>
+                <article class="product-card">
+                  <div class="product-media">
+                    <img src="./assets/hero-oven.svg" alt="Hamur işleme makinesi" />
+                  </div>
+                  <div class="product-body">
+                    <h3>Hamur İşleme Makineleri</h3>
+                    <button type="button" aria-label="Hamur işleme makinelerini incele">+</button>
+                  </div>
+                </article>
+                <article class="product-card">
+                  <div class="product-media">
+                    <img src="./assets/hero-oven.svg" alt="Özel üretim sistemleri" />
+                  </div>
+                  <div class="product-body">
+                    <h3>Özel Üretim Sistemleri</h3>
+                    <button type="button" aria-label="Özel üretim sistemlerini incele">+</button>
+                  </div>
+                </article>
+              </div>
+
+              <aside class="product-showcase">
+                <div class="product-showcase-frame">
+                  <div class="showcase-content">
+                    <img class="showcase-logo" src="./assets/logo.svg" alt="" />
+                    <div class="showcase-copy">
+                      <p class="showcase-breadcrumb">Anasayfa / Ürünler / Döner Arabalı Fırınlar</p>
+                      <h3>Döner Arabalı Fırınlar</h3>
+                    </div>
+                    <div class="showcase-main">
+                      <div class="showcase-image">
+                        <img src="./assets/hero-oven.svg" alt="Döner arabalı fırın" />
+                      </div>
+                      <div class="showcase-specs">
+                        <h4>Teknik Özellikler</h4>
+                        <ul>
+                          <li>Yüksek ısı verimliliği</li>
+                          <li>Homojen pişirme</li>
+                          <li>Paslanmaz iç gövde</li>
+                          <li>Dokunmatik kontrol paneli</li>
+                          <li>Enerji tasarruflu yapı</li>
+                        </ul>
+                        <div class="showcase-actions">
+                          <a href="./iletisim.html" class="button button-primary button-small">Teklif Al</a>
+                          <a href="./urunler.html" class="button button-secondary button-small">Kataloğu İndir</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="showcase-thumbs" aria-hidden="true">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </section>
+
+        <section class="process-section" id="process">
+          <div class="container process-grid">
+            <div class="process-panel">
+              <div class="section-heading section-heading-compact">
+                <div>
+                  <p class="eyebrow">Üretim sürecimiz</p>
+                  <h2>Kalite, Teknoloji ve Güven</h2>
+                </div>
+              </div>
+
+              <div class="process-timeline">
+                <article class="process-card process-cut">
+                  <span>01</span>
+                  <h3>Tasarım</h3>
+                </article>
+                <article class="process-card process-laser">
+                  <span>02</span>
+                  <h3>Lazer Kesim</h3>
+                </article>
+                <article class="process-card process-weld">
+                  <span>03</span>
+                  <h3>Kaynak</h3>
+                </article>
+                <article class="process-card process-assembly">
+                  <span>04</span>
+                  <h3>Montaj</h3>
+                </article>
+                <article class="process-card process-control">
+                  <span>05</span>
+                  <h3>Kalite Kontrol</h3>
+                </article>
+                <article class="process-card process-shipping">
+                  <span>06</span>
+                  <h3>Teslimat</h3>
+                </article>
+              </div>
+
+              <a href="./kurumsal.html" class="button button-secondary process-button">Üretimi İncele</a>
+            </div>
+
+            <div class="map-panel" id="about">
+              <div class="section-heading section-heading-compact">
+                <div>
+                  <p class="eyebrow">Dünyaya açılıyoruz</p>
+                  <h2>20+ Ülkeye İhracat</h2>
+                </div>
+              </div>
+
+              <p class="map-text">
+                Kaliteli üretim anlayışımız ve esnek proje yaklaşımımızla farklı
+                pazarlarda güvenilir çözüm ortağı olarak konumlanıyoruz.
+              </p>
+
+              <div class="map-visual">
+                <img src="./assets/world-map.svg" alt="ERMAKSAN'ın uluslararası ihracat ağı" />
+              </div>
+
+              <div class="map-metrics">
+                <article>
+                  <strong data-count="20">20+</strong>
+                  <span>Ülkeye ihracat</span>
+                </article>
+                <article>
+                  <strong data-count="500">500+</strong>
+                  <span>Kurulu sistem</span>
+                </article>
+                <article>
+                  <strong data-count="15">15+</strong>
+                  <span>Yıllık tecrübe</span>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="references-section section-light" id="references">
+          <div class="container references-grid">
+            <div class="references-panel">
+              <div class="section-heading section-heading-compact">
+                <div>
+                  <p class="eyebrow eyebrow-dark">Referanslarımız</p>
+                  <h2>Güvenilir Çözümler, Kalıcı İş Ortaklıkları</h2>
+                </div>
+              </div>
+
+              <div class="logo-cloud" aria-label="Marka referansları">
+                <span>UNO</span>
+                <span>Lesaffre</span>
+                <span>Puratos</span>
+                <span>Erpiliç</span>
+                <span>Danone</span>
+                <span>BakTAT</span>
+                <span>Rolls</span>
+                <span>Kumkaya</span>
+              </div>
+
+              <a href="./referanslar.html" class="button button-primary button-small">Tüm Referanslar</a>
+            </div>
+
+            <div class="cta-panel" id="contact">
+              <div class="cta-copy">
+                <p class="eyebrow">Teklif alın</p>
+                <h2>Projeniz İçin Özel Çözümler Sunalım</h2>
+                <p>
+                  Üretim kapasitenize, ürün yapınıza ve tesis koşullarınıza uygun
+                  sistem seçeneklerini birlikte planlayalım.
+                </p>
+              </div>
+
+              <form class="contact-form">
+                <label>
+                  <span>Ad Soyad</span>
+                  <input type="text" name="name" placeholder="Ad Soyad" />
+                </label>
+                <label>
+                  <span>Firma Adı</span>
+                  <input type="text" name="company" placeholder="Firma Adı" />
+                </label>
+                <label>
+                  <span>Telefon</span>
+                  <input type="tel" name="phone" placeholder="Telefon" />
+                </label>
+                <label>
+                  <span>E-posta</span>
+                  <input type="email" name="email" placeholder="E-posta" />
+                </label>
+                <label class="full-width">
+                  <span>Mesajınız</span>
+                  <textarea name="message" rows="4" placeholder="Mesajınız"></textarea>
+                </label>
+                <button type="submit" class="button button-primary">Gönder</button>
+              </form>
+
+              <div class="cta-visual">
+                <img src="./assets/technician.svg" alt="Kontrol paneli üzerinde çalışan teknisyen" />
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-main">
+          <div class="footer-brand-block">
+            <img src="./assets/logo.svg" alt="ERMAKSAN" />
+            <p>
+              Endüstriyel fırın makineleri üretiminde kalite, teknoloji ve müşteri
+              memnuniyetini odağa alan kurumsal çözüm ortağınız.
+            </p>
+            <div class="social-links" aria-label="Sosyal medya">
+              <a href="/" aria-label="Facebook">Fb</a>
+              <a href="/" aria-label="Instagram">Ig</a>
+              <a href="/" aria-label="LinkedIn">In</a>
+              <a href="/" aria-label="YouTube">Yt</a>
+            </div>
+          </div>
+
+          <div class="footer-column">
+            <h3>Kurumsal</h3>
+            <a href="./kurumsal.html">Hakkımızda</a>
+            <a href="./kurumsal.html">Vizyon &amp; Misyon</a>
+            <a href="./kurumsal.html">Kalite Politikamız</a>
+            <a href="./iletisim.html">Kariyer</a>
+          </div>
+
+          <div class="footer-column">
+            <h3>Ürünler</h3>
+            <a href="./urunler.html">Döner Arabalı Fırınlar</a>
+            <a href="./urunler.html">Katlı Fırınlar</a>
+            <a href="./urunler.html">Konveyörlü Fırınlar</a>
+            <a href="./urunler.html">Özel Üretim Çözümleri</a>
+          </div>
+
+          <div class="footer-column">
+            <h3>İletişim</h3>
+            <p>+90 212 123 45 67</p>
+            <p>+90 531 123 45 67</p>
+            <p>info@ermaksan.com.tr</p>
+            <p>OSB Mah. 123. Sk. No:45 Selçuklu / Konya</p>
+          </div>
+        </div>
+
+        <div class="footer-ribbon">
+          <div class="container ribbon-grid">
+            <span>%100 yerli üretim</span>
+            <span>Teknolojik altyapı</span>
+            <span>Özel proje çözümleri</span>
+            <span>Zamanında teslimat</span>
+            <span>Satış sonrası destek</span>
+          </div>
+        </div>
+
+        <div class="container footer-bottom">
+          <p>&copy; 2026 ERMAKSAN. Tüm hakları saklıdır.</p>
+          <div class="footer-legal">
+            <a href="/">KVKK</a>
+            <a href="/">Gizlilik Politikası</a>
+            <a href="/">Çerez Politikası</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

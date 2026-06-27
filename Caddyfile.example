@@ -1,0 +1,7 @@
+# Replace this hostname with a real domain or subdomain that points to your home IP.
+# Example: ermaksan-demo.yourdomain.com
+ermaksan-demo.example.com {
+  root * /home/ae-h1/home_ws/website
+  file_server
+  encode zstd gzip
+}

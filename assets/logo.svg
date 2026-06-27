@@ -1,0 +1,13 @@
+<svg width="260" height="64" viewBox="0 0 260 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="260" height="64" rx="12" fill="transparent"/>
+  <path d="M14 16.5L28.2 7H52L37.3 16.5H14Z" fill="#EF202F"/>
+  <path d="M14 22H34.8L24.5 30H14V22Z" fill="#C9CDD4"/>
+  <path d="M14 36H26.8L39.2 27.5H50.8L33 39.8L52 39.7V50H28.4L14 39.6V36Z" fill="#E7EAF0"/>
+  <path d="M64 18H109.2V24.2H73.4V29.9H106.8V35.9H73.4V45.4H109.8V51.6H64V18Z" fill="white"/>
+  <path d="M112.7 18H150.4C158.7 18 163.7 22 163.7 29C163.7 34.5 160.7 37.9 155.3 39.3L165.2 51.6H154.1L145.2 40.4H122.1V51.6H112.7V18ZM148.5 34.1C152.3 34.1 154.5 32.4 154.5 29.5C154.5 26.3 152 24.9 148.4 24.9H122.1V34.1H148.5Z" fill="white"/>
+  <path d="M167.2 18H176.7V51.6H167.2V18Z" fill="white"/>
+  <path d="M182 18H191.7L207.9 40.2L223.9 18H233.4V51.6H224.1V31L208.5 51.6H207.2L191.3 30.9V51.6H182V18Z" fill="white"/>
+  <path d="M238 18H247.6V51.6H238V18Z" fill="white"/>
+  <path d="M64 57H114" stroke="#EF202F" stroke-width="3" stroke-linecap="round"/>
+  <text x="64" y="14" fill="#9AA3AF" font-family="Arial, Helvetica, sans-serif" font-size="7" letter-spacing="2.1">FIRIN MAKINELERI IMALATI</text>
+</svg>
